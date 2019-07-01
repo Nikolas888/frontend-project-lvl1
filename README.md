@@ -1,5 +1,7 @@
 [![asciicast](https://asciinema.org/a/AcTALIcf3LdSu9S6Zvt6xt7Ht.svg)](https://asciinema.org/a/AcTALIcf3LdSu9S6Zvt6xt7Ht)
 
+[![asciicast](https://asciinema.org/a/JaQepuJkLASROFnsfSFOhOrPI.svg)](https://asciinema.org/a/JaQepuJkLASROFnsfSFOhOrPI)
+
 [![Maintainability](https://api.codeclimate.com/v1/badges/ac5d1688ff9cfb7850f5/maintainability)](https://codeclimate.com/github/Nikolas888/frontend-project-lvl1/maintainability)
 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/ac5d1688ff9cfb7850f5/test_coverage)](https://codeclimate.com/github/Nikolas888/frontend-project-lvl1/test_coverage)
