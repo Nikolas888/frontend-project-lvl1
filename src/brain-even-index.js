@@ -26,18 +26,18 @@ const getRandomFloat = () => {
 
   }
   else if (num % 2 == 0 && answer !== 'yes') {
-     n += 3;
+     n += 4;
      console.log(sory);
   }
   else if (num % 2 !== 0 && answer !== 'no') {
      console.log(sory);
-     n += 3;
-  };
+     n += 4;
+  }
 };
 
-if (n = 3) {
+if (n === 4) {
 console.log('Congratulations, ' + name + '!');
-};
+}
 };
 
 

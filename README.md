@@ -1,6 +1,8 @@
-[![asciicast](https://asciinema.org/a/AcTALIcf3LdSu9S6Zvt6xt7Ht.svg)](https://asciinema.org/a/AcTALIcf3LdSu9S6Zvt6xt7Ht)
+[![asciicast](https://asciinema.org/a/MdPqy9D80zC3NPDzXEDJVtB2F.svg)](https://asciinema.org/a/MdPqy9D80zC3NPDzXEDJVtB2F)
 
-[![asciicast](https://asciinema.org/a/JaQepuJkLASROFnsfSFOhOrPI.svg)](https://asciinema.org/a/JaQepuJkLASROFnsfSFOhOrPI)
+[![asciicast](https://asciinema.org/a/RXZxfjM6XXhYKKKnj4SuLBj7o.svg)](https://asciinema.org/a/RXZxfjM6XXhYKKKnj4SuLBj7o)
+
+[![asciicast](https://asciinema.org/a/kNzsS0lHvmLcHjSItMd4Le5cv.svg)](https://asciinema.org/a/kNzsS0lHvmLcHjSItMd4Le5cv)
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/ac5d1688ff9cfb7850f5/maintainability)](https://codeclimate.com/github/Nikolas888/frontend-project-lvl1/maintainability)
 
