@@ -13,7 +13,7 @@ const getRandomFloat = () => {
 
      const num = Math.floor(Math.random() * 30);
      console.log ('Question: ' + num);
-     const answer = readlineSync.question('Your answer:');
+     const answer = readlineSync.question('Your answer: ');
 
   if (num % 2 == 0 && answer == 'yes' && n <= 3) {
      console.log('Correct!');
