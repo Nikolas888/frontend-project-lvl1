@@ -1,3 +1,4 @@
+brain-even Четное или не четное число.
 [![asciicast](https://asciinema.org/a/MdPqy9D80zC3NPDzXEDJVtB2F.svg)](https://asciinema.org/a/MdPqy9D80zC3NPDzXEDJVtB2F)
 
 [![asciicast](https://asciinema.org/a/RXZxfjM6XXhYKKKnj4SuLBj7o.svg)](https://asciinema.org/a/RXZxfjM6XXhYKKKnj4SuLBj7o)
