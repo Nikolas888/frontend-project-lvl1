@@ -10,6 +10,9 @@
 Игра "Арифметическая прогрессия". Игроку показывается ряд чисел, образующий арифметическую прогрессию, одно число заменено двумя точками. Игрок должен определить это число.
 [![asciicast](https://asciinema.org/a/gdMgLdPtLmz4sFNxIrS7P0qYm.svg)](https://asciinema.org/a/gdMgLdPtLmz4sFNxIrS7P0qYm)
 
+Игра "Простое ли число?" Пользователю показывается случайное число. И ему нужно ответить yes, если число простое, или no — в другом случае.
+[![asciicast](https://asciinema.org/a/HzWtpY45HHFzRHA47rEnlUgsZ.svg)](https://asciinema.org/a/HzWtpY45HHFzRHA47rEnlUgsZ)
+
 [![Maintainability](https://api.codeclimate.com/v1/badges/ac5d1688ff9cfb7850f5/maintainability)](https://codeclimate.com/github/Nikolas888/frontend-project-lvl1/maintainability)
 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/ac5d1688ff9cfb7850f5/test_coverage)](https://codeclimate.com/github/Nikolas888/frontend-project-lvl1/test_coverage)
