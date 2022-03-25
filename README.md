@@ -3,6 +3,7 @@
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
 ![example workflow](https://github.com/Nikolas888/frontend-project-lvl1/actions/workflows/test.yml/badge.svg)
 
+Серия консольных игр Brain Games.
 <h1>Setup</h1>
 make install</br>
 npm link</br></br>
