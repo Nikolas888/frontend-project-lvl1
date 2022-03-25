@@ -5,8 +5,9 @@
 
 <h1>Серия консольных игр Brain Games.</h1>
 <h2>Setup</h2>
-make install</br>
-npm link</br></br>
+1. Склонируйте репозиторий git clone git@github.com:Nikolas888/frontend-project-lvl1.git
+2. Для установки введите make install</br>
+3. npm link</br></br>
 
 Игра: "Проверка на четность". Пользователю показывается случайное число. И ему нужно ответить yes, если число чётное, или no — если нечётное.
 [![asciicast](https://asciinema.org/a/MynzoGSby4Pbyf9RFN9jRdPdf.svg)](https://asciinema.org/a/MynzoGSby4Pbyf9RFN9jRdPdf)
