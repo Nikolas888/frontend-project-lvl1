@@ -4,7 +4,7 @@
 ![example workflow](https://github.com/Nikolas888/frontend-project-lvl1/actions/workflows/test.yml/badge.svg)
 
 <h1>Серия консольных игр Brain Games.</h1>
-<h3>Setup</h3>
+<h2>Setup</h2>
 make install</br>
 npm link</br></br>
 
