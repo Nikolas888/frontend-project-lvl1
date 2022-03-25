@@ -5,7 +5,7 @@
 
 <h1>Серия консольных игр Brain Games.</h1>
 <h2>Setup</h2>
-1. Склонируйте репозиторий git clone git@github.com:Nikolas888/frontend-project-lvl1.git
+1. Склонируйте репозиторий git clone git@github.com:Nikolas888/frontend-project-lvl1.git</br>
 2. Для установки введите make install</br>
 3. npm link</br></br>
 
