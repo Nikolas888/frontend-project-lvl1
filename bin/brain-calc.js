@@ -3,7 +3,7 @@ import readlineSync from 'readline-sync';
 
 const getRandomFloat = () => {
   const name = readlineSync.question('May I have your name? ');
-  console.log(`Hello ${name}!`);
+  console.log(`Hello, ${name}!`);
   console.log('');
   let num3 = 1; //  результат случайного вычисления случайных чисел.
   let n = 1; // раунды

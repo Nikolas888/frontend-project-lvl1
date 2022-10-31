@@ -3,7 +3,7 @@ import readlineSync from 'readline-sync';
 
 const getRandomFloat = () => {
   const name = readlineSync.question('May I have your name? ');
-  console.log(`Hello ${name}!`);
+  console.log(`Hello, ${name}!`);
   console.log('');
   const sory = `\n'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, ${name}!`;
   const sory2 = `\n'no' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, ${name}!`;
