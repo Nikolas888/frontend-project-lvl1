@@ -35,7 +35,7 @@ const getRandomFloat = () => {
 };
 
 console.log('\nWelcome to the Brain Games!');
-console.log('Answer "yes" if number even otherwise answer "no".');
+console.log('Answer "yes" if the number is even, otherwise answer "no".');
 console.log('');
 getRandomFloat();
 
