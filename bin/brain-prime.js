@@ -5,7 +5,7 @@ const getRandomFloat = () => {
   const name = readlineSync.question('May I have your name? ');
   console.log(`Hello ${name}!`);
   console.log('');
-  // const num4 = 1; // результат
+  // const num4 = 1; // результат.
   let n = 1; // раунды
 
   while (n <= 3) {
