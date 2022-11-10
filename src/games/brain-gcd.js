@@ -27,7 +27,7 @@ const getRandomFloat = () => {
   while (n <= 3) {
     const num = Math.floor(Math.random() * 30);
     const num2 = Math.floor(Math.random() * 30);
-    // const arr = [num + num2, num - num2, num * num2];
+    // const arr = [num+num2, num-num2, num*num2];
     // const rand = Math.floor(Math.random() * arr.length);
 
     // const quest = () => {
