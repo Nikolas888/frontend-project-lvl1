@@ -50,9 +50,4 @@ const getRandomFloat = () => {
   }
 };
 
-// console.log('\nWelcome to the Brain Games!');
-// console.log('What is the result of the expression?');
-// console.log('');
-// getRandomFloat();
-
 export default getRandomFloat;
