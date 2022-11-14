@@ -4,11 +4,13 @@ import readlineSync from 'readline-sync';
 const rules = 'What is the result of the expression?';
 
 const getRandomFloat = () => {
-  console.log('\nWelcome to the Brain Games!');
-  console.log(rules);
+  console.log('Welcome to the Brain Games!\n');
+  const name = readlineSync.question('May I have your name? ');
+  console.log(`Hello, ${name}!\n\n${rules}`);
+  // console.log(rules);
   // console.log('');
-  const name = readlineSync.question('\nMay I have your name? ');
-  console.log(`Hello, ${name}!\n`);
+  // const name = readlineSync.question('\nMay I have your name? ');
+  // console.log(`Hello, ${name}!\n`);
   let num3 = 1; //  результат случайного вычисления случайных чисел.
   let n = 1; // раунды
 
