@@ -8,8 +8,7 @@ const getRandomFloat = () => {
   console.log(rules);
   // console.log('');
   const name = readlineSync.question('\nMay I have your name? ');
-  console.log(`Hello, ${name}!`);
-  console.log('');
+  console.log(`Hello, ${name}!\n`);
   let num3 = 1; //  результат случайного вычисления случайных чисел.
   let n = 1; // раунды
 
