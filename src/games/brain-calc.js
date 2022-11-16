@@ -1,54 +1,44 @@
 import readlineSync from 'readline-sync';
-// import * as random from '../src/random.js';
+import { gameEngine, Rounds } from '../index.js';
 
 const rules = 'What is the result of the expression?';
 
-const getRandomFloat = () => {
-  console.log('Welcome to the Brain Games!\n');
-  const name = readlineSync.question('May I have your name? ');
-  console.log(`Hello, ${name}!\n\n${rules}`);
-  // console.log(rules);
-  // console.log('');
-  // const name = readlineSync.question('\nMay I have your name? ');
-  // console.log(`Hello, ${name}!\n`);
-  let num3 = 1; //  результат случайного вычисления случайных чисел.
-  let n = 1; // раунды
+const operators = ['+', '-', '*'];
 
-  while (n <= 3) {
-    const num = Math.floor(Math.random() * 30);
-    const num2 = Math.floor(Math.random() * 30);
-    const arr = [num + num2, num - num2, num * num2];
+const getRightAnswer = (firstNumber, secondNumber, operator) => {
+  if (operator === '+') {
+    return firstNumber + secondNumber;
+  } else if (operator === '-') {
+    return firstNumber - secondNumber;
+  } 
+    return firstNumber * secondNumber;
+}
+
+const brainCalc = () => {
+  const questionAnswerPairs = [];
+
+  for (let i = 0; i < Rounds; i += 1) {
+    const firstNumber = Math.floor(Math.random() * 30);
+    const secondNumber = Math.floor(Math.random() * 30);
+    const arr = [firstNumber + secondNumber, firstNumber - secondNumber, firstNumber * secondNumber];
     const rand = Math.floor(Math.random() * arr.length);
+    const randomOperator = operators[rand];
+    const operator = randomOperator;
 
-    // const quest = () => {
-    if (rand === 0) {
-      console.log(`Question: ${num} + ${num2}`);
-      num3 = num + num2;
-    } else if (rand === 1) {
-      console.log(`Question: ${num} - ${num2}`);
-      num3 = num - num2;
-    } else if (rand === 2) {
-      console.log(`Question: ${num} * ${num2}`);
-      num3 = num * num2;
+        // Get string with expression
+    const expressionString = `${firstNumber} ${operator} ${secondNumber}`;
+
+        // Creating buffer array and add items
+        const bufferArray = [];
+        bufferArray.push(expressionString);
+        const rightAnswer = getRightAnswer(firstNumber, secondNumber, operator);
+        bufferArray.push(rightAnswer.toString());
+
+        // Adding a buffer array to an question and answer pair array
+        questionAnswerPairs.push(bufferArray);
+
     }
-    // };
-
-    // quest();
-
-    const answer = readlineSync.question('Your answer: ');
-
-    if (Number(answer) === num3 && n <= 3) {
-      console.log('Correct!');
-      n += 1;
-    } else if (answer !== num3) {
-      n += 4;
-      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${num3}' . Let's try again, ${name}!`);
-    }
+    gameEngine(questionAnswerPairs, rules);
   }
 
-  if (n === 4) {
-    console.log(`Congratulations, ${name}!`);
-  }
-};
-
-export default getRandomFloat;
+export default brainCalc;
