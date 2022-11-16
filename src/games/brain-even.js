@@ -1,40 +1,29 @@
-import readlineSync from 'readline-sync';
+import { gameEngine, Rounds } from '../index.js';
 
 const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-const getRandomFloat = () => {
-  console.log('\nWelcome to the Brain Games!');
-  console.log(rules);
-  const name = readlineSync.question('\nMay I have your name? ');
-  console.log(`Hello, ${name}!`);
-  console.log('');
-  const sory = `\n'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, ${name}!`;
-  const sory2 = `\n'no' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, ${name}!`;
-  let n = 1;
+function isEven(number) {
+  return number % 2;
+}
 
-  while (n <= 3) {
-    const num = Math.floor(Math.random() * 30);
-    console.log(`Question: ${num}`);
-    const answer = readlineSync.question('Your answer: ');
+const brainEven = () => {
+  const questionAnswerPairs = [];
 
-    if (num % 2 === 0 && answer === 'yes' && n <= 3) {
-      console.log('Correct!');
-      n += 1;
-    } else if (num % 2 !== 0 && answer === 'no' && n <= 3) {
-      console.log('Correct!');
-      n += 1;
-    } else if (num % 2 === 0 && answer !== 'yes') {
-      n += 4;
-      console.log(sory2);
-    } else if (num % 2 !== 0 && answer !== 'no') {
-      console.log(sory);
-      n += 4;
-    }
+  for (let i = 0; i < Rounds; i += 1) {
+    const randomNum = Math.floor(Math.random() * 30);
+
+    // Geting right answer
+    const rightAnswer = isEven(randomNum) ? 'no' : 'yes';
+
+    // Creating buffer array and add items
+    const bufferArray = [];
+    bufferArray.push(randomNum);
+    bufferArray.push(rightAnswer);
+
+    // Adding a buffer array to an question and answer pair array
+    questionAnswerPairs.push(bufferArray);
   }
-
-  if (n === 4) {
-    console.log(`Congratulations, ${name}!`);
-  }
+  gameEngine(questionAnswerPairs, rules);
 };
 
-export default getRandomFloat;
+export default brainEven;
