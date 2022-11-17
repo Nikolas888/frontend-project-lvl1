@@ -20,10 +20,9 @@ const progressionGenerator = (firstNumber, secondNumber) => {
 const brainProgression = () => {
   const questionAndAnswerPairs = [];
 
-  
   for (let i = 0; i < Rounds; i += 1) {
-    let bufferArray = [];
-    let handlerArray = [];
+    const bufferArray = [];
+    const handlerArray = [];
     const a = Math.floor(Math.random() * 30);
     const d = Math.floor(Math.random() * 30);
 
