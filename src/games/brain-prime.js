@@ -36,6 +36,15 @@ export default brainPrime;
 
 // const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
+// const getRandomFloat = () => {
+//   console.log('\nWelcome to the Brain Games!');
+//   console.log(rules);
+//   const name = readlineSync.question('\nMay I have your name? ');
+//   console.log(`Hello, ${name}!`);
+//   console.log('');
+//   // const num4 = 1; // результат.
+//   let n = 1; // раунды
+
 //   while (n <= 3) {
 //     const num = Math.floor(Math.random() * 30);
 //     let ans = '';
