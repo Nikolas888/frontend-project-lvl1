@@ -20,9 +20,10 @@ const progressionGenerator = (firstNumber, secondNumber) => {
 const brainProgression = () => {
   const questionAndAnswerPairs = [];
 
-  let handlerArray = [];
+  
   for (let i = 0; i < Rounds; i += 1) {
     let bufferArray = [];
+    let handlerArray = [];
     const a = Math.floor(Math.random() * 30);
     const d = Math.floor(Math.random() * 30);
 
@@ -35,7 +36,7 @@ const brainProgression = () => {
     handlerArray.push(String(rightAnswer));
     questionAndAnswerPairs.push(handlerArray);
   }
-  gameEngine(questionAndAnswerPairs, gameRules);
+  gameEngine(questionAndAnswerPairs, rules);
 };
 
 export default brainProgression;
