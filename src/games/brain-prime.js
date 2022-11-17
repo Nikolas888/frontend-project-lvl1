@@ -34,8 +34,6 @@ const brainPrime = () => {
 };
 export default brainPrime;
 
-// import readlineSync from 'readline-sync';
-
 // const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 // const getRandomFloat = () => {
