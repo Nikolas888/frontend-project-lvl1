@@ -73,3 +73,28 @@ export default brainPrime;
 //     };
 
 //     prime(num);
+
+//     const quest = () => {
+//       console.log(`Question: ${num}`);
+//     };
+
+//     quest();
+
+//     const answer = readlineSync.question('Your answer: ');
+
+//     if (answer === ans && n <= 3) {
+//       console.log('Correct!');
+//       n += 1;
+//     } else if (answer !== ans) {
+//       n += 4;
+//       console.log(`'${answer}' is wrong answer ;(. Correct answer was '${ans}' .
+//    Let's try again, ${name}!`);
+//     }
+//   }
+
+//   if (n === 4) {
+//     console.log(`Congratulations, ${name}!`);
+//   }
+// };
+
+// export default getRandomFloat;
