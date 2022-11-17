@@ -93,4 +93,6 @@ export default brainPrime;
 //   if (n === 4) {
 //     console.log(`Congratulations, ${name}!`);
 //   }
+// };
 
+// export default getRandomFloat;
