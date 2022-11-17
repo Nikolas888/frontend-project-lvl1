@@ -34,7 +34,6 @@ const brainPrime = () => {
 };
 export default brainPrime;
 
-
 // import readlineSync from 'readline-sync';
 
 // const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
@@ -88,7 +87,8 @@ export default brainPrime;
 //       n += 1;
 //     } else if (answer !== ans) {
 //       n += 4;
-//       console.log(`'${answer}' is wrong answer ;(. Correct answer was '${ans}' . Let's try again, ${name}!`);
+//       console.log(`'${answer}' is wrong answer ;(. Correct answer was '${ans}' .
+//    Let's try again, ${name}!`);
 //     }
 //   }
 
